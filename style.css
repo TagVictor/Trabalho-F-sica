@@ -38,12 +38,18 @@ iframe {
     margin-left: 0px;
     background-color: #333;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
     max-width: 1302px;
     
 }
+iframe:hover{
+      transition: .5s;
+      font-size: 18px;
+      box-shadow: 0px 0px 20px rgba(17, 216, 17, 0.834);
+      border-radius: 12px;
+}
 img{
-    text-align: center right;
+    text-align: center;
     margin: auto;
     min-width:360px ;
     max-width: 1300;
@@ -51,24 +57,27 @@ img{
 }
 .nav-buttons {
     padding: 0px;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center right;
 }
 
 .nav-buttons:hover{
     padding: 10px 40px;
     font-size: 18px;
-    box-shadow: 0px 0px 20px rgb(13, 20, 20);
-    border-radius: 12px;
-    background-color: rgba(24, 27, 27, 0.842);
-    font-weight: 600;
+    box-shadow: 0px 0px 20px rgba(17, 216, 17, 0.834);
+    border-radius: 50px;
+    background-color: rgba(42, 48, 48, 0.842);
+    font-weight: 400;
     cursor: pointer;
     transition: .3s;
 }
 
 .nav-buttons button {
-    padding: 10px 20px;
+    padding: 11px 22px;
     margin: 5px;
     border: none;
-    background-color: darkgreen;
+    background-color: rgba(13, 148, 13, 0.719);
     color: white;
     cursor: pointer;
     border-radius: 5px;
